@@ -1,0 +1,30 @@
+/* <!--电影列表页面 整个栏目 一列一列  --> */
+@import "../movies/movies.wxss";
+
+/* 列表开头 */
+.contains{
+  background-color: #fff;
+}
+.movie-head {
+  padding: 30rpx 20rpx 22rpx;
+}
+
+.slogan {
+  font-size: 24rpx;
+}
+
+.more {
+  float: right;
+}
+
+.more-text {
+  vertical-align: middle;
+  margin-right: 10rpx;
+  color: #1f4ba5;
+}
+
+.more-img {
+  width: 9rpx;
+  height: 16rpx;
+  vertical-align: middle;
+}

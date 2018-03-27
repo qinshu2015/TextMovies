@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <image class='userimg' src='http://wx.qlogo.cn/mmhead/PdibpV1sFDHd9VS6MV0cdic7gtvLqIzOJwSvictdLW9ZtM9UeepM8npBA/132'></image>
+    <text class='weluser'>hello , 永远VIP</text>
+    <view class='str_btn'>
+     <text>开启小程序之旅</text>
+    </view>
+</view>

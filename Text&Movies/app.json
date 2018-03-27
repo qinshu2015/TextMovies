@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/movies/movies",
+    "pages/words/words",
+    "pages/words/words_detail/words_detail",
+    "pages/index/index",
+    
+    "pages/movies/movies_detail/movies_detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "永远VIP",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/words/words",
+        "text": "阅读",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      }
+    ]
+  }
+}

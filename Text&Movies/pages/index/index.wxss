@@ -1,0 +1,27 @@
+/**index.wxss**/
+page{
+  background-color: #b3d4db;
+}
+.container .userimg{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius:50%; 
+}
+
+.container .weluser{
+  margin-top: 80rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+
+.str_btn{
+   margin-top: 200rpx;
+   border: 1px solid #405f80;
+   border-radius:5px;  
+   padding: 20rpx 40rpx;
+}
+
+.str_btn text{
+  font-size: 28rpx;
+  color: #405f80
+}

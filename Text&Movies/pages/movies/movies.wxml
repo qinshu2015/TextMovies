@@ -1,0 +1,22 @@
+<!--pages/movies/movies.wxml-->
+<!--电影页面   -->
+<import src="movieslist/movieslist.wxml" />
+
+<view>
+    <!--搜索  -->
+    <view class="search">
+      <icon type="search" class="search-img" size="13" color="#405f80"></icon>
+      <input type="text" placeholder="血战钢锯岭、你的名字"  placeholder-class="placeholder" />
+      <image src="/images/icon/xx.png" class="xx-img" ></image>
+    </view>
+
+    <!--内容  -->
+    <view class='contain'>
+      <block wx:for="{{mpovieskey}}">
+        <view>
+             <!-- {{mpovieskey[0].subjects[0].title}}   -->
+          <template is="moviesList" data="{{item}}"></template> 
+        </view>
+      </block>
+    </view>
+</view>

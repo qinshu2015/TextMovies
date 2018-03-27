@@ -1,0 +1,23 @@
+<!--pages/movies/movies.wxml-->
+<import src="words_template/words_template.wxml" />
+
+<view class='body'>
+    <swiper indicator-dots='true' autoplay="true" interval="5000">
+        <swiper-item><image src="/images/mbanner1.png"></image></swiper-item>
+        <swiper-item><image src="/images/mbanner2.png"></image></swiper-item>
+        <swiper-item><image src="/images/mbanner3.png"></image></swiper-item>
+    </swiper>
+    <!--列表开始  -->
+    <view>
+        <block wx:for="{{wordkey}}">
+        <!-- template是一个外部加载的组件，绑定店家不友好，故用view做事件处理 -->
+        <!--data-postid自定义属性   注意：是中横线 “-”  -->
+           <view catchtap='OnpostData'  data-postid="{{item.postId}}">
+               <template is="wordestemplate" data="{{item}}" />
+           </view> 
+        </block>
+    </view>
+
+
+
+</view>

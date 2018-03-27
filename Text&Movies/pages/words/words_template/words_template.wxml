@@ -1,0 +1,24 @@
+<template name="wordestemplate">
+<!--列表文字  -->
+     <view>
+          <view class='userheader'>
+              <image src='{{item.avatar}}'></image>
+              <text>{{item.date}}</text>
+          </view>
+         <view class='liststr'>
+             <text class='listtitle'>{{item.title}}</text>
+             <image class='bigimg' src='{{item.imgSrc}}'></image>
+             <view class='conten'><text>本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像</text></view>
+              <view class='bottreder'>
+                  <view class='reicon'>
+                      <image src='/images/icon/chat1.png'></image>
+                      <text>{{item.reading}}</text>
+                  </view>
+                  <view class='reicon'>
+                      <image src='/images/icon/view.png'></image>
+                      <text>{{item.collection}}</text>
+                  </view>
+              </view>
+         </view>
+        </view>
+</template>

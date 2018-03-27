@@ -1,0 +1,12 @@
+<!--单个电影 包括评分  -->
+<import src="../starts/starts.wxml" />
+
+<template name="movies">
+   <view class="movie-container" >
+      <image class="movie-img" src="/images/post/bl.png"></image>
+      <text class="movie-title">{{mpovieskey[0].subjects[0].title}}</text>
+      <view class="stars-container">
+         <template is="starttemplate" ></template> 
+      </view>
+  </view> 
+</template>

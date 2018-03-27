@@ -1,0 +1,10 @@
+<!--星星  -->
+<template name="starttemplate">
+  <view class="stars">
+    <image src="/images/icon/star.png"></image>
+      <image src="/images/icon/star.png"></image>
+      <image src="/images/icon/star.png"></image>
+      <image src="/images/icon/none-star.png"></image>
+      <text class="star-score">6.9</text>
+  </view>
+</template>

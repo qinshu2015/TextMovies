@@ -1,0 +1,72 @@
+<!--pages/movies/movies_detail/movies_detail.wxml-->
+<view class="container">
+  <image class="head-img" src="/images/post/bl.png" />
+  <view class="head-img-hover" >
+    <text class="main-title">我是巨人</text>
+    <text class="sub-title">2018-3</text>
+    <view class="like">
+      <text class="highlight-font">
+        35687
+      </text>
+      <text class="plain-font">
+        人喜欢
+      </text>
+      <text class="highlight-font">
+       23567
+      </text>
+      <text class="plain-font">
+        条评论
+      </text>
+    </view>
+  </view>
+  <image class="movie-img" src="/images/post/bl.png"/>
+  <view style="clear: both;height:180rpx"></view>
+  <view class="summary">
+    <view class="original-title">
+      <text>movie.originalTitleorig</text>
+    </view>
+    <!-- <view class="flex-row">
+      <text class="mark">评分</text>
+      <template is="starsTemplate" data="{{stars:movie.stars, score:movie.score}}" />
+    </view> -->
+    <view class="flex-row">
+      <text class="mark">导演</text>
+      <text>DirectorName</text>
+    </view>
+    <view class="flex-row">
+      <text class="mark">影人</text>
+      <text>Casts</text>
+    </view>
+    <view class="flex-row">
+      <text class="mark">类型</text>
+      <text>Generes</text>
+    </view>
+  </view>
+  <view class="hr"></view>
+  <view class="synopsis">
+    <text class="synopsis-font">剧情简介</text>
+    <text class="summary-content">
+    
+    剧情简介在这里哟剧情简介在这里哟剧情简介在这里哟
+    多久啊会受到客户杀了导航栏
+    </text>
+  </view>
+  <view class="hr"></view>
+  <view class="cast">
+    <text class="cast-font"> 影人</text>
+    <scroll-view class="cast-imgs" scroll-x="true" style="width:100%">
+        <view class="cast-container">
+          <image class="cast-img" src="/images/avatar/2.png"></image>
+          <text class="cast-name">花花</text>
+        </view>
+        <view class="cast-container">
+          <image class="cast-img" src="/images/avatar/3.png"></image>
+          <text class="cast-name">小李</text>
+        </view>
+        <view class="cast-container">
+          <image class="cast-img" src="/images/avatar/4.png"></image>
+          <text class="cast-name">米叔</text>
+        </view>
+    </scroll-view>
+  </view>
+</view>
